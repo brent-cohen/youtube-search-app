@@ -1,0 +1,16 @@
+{
+  "name": "youtube-search-app",
+  "version": "1.0.0",
+  "description": "A single-page web application to search YouTube videos using the YouTube Data API.",
+  "main": "index.html",
+  "dependencies": {
+    "es-dev-server": "^2.1.0",
+    "lit": "^3.2.1"
+  },
+  "scripts": {
+    "start": "es-dev-server --app-index index.html --node-resolve --open --watch",
+    "build": "echo 'Build process goes here if needed'",
+    "test": "echo 'Testing script goes here if needed'"
+  },
+    "license": "MIT"
+}
